@@ -24,12 +24,15 @@ struct NavBarView: View {
     //
     // 1: each top link will be a view that contains
     // images that has the title category attached to it;
+    
+    // 2. make into a struct
     //
     /// -----------------------------
+    ///
 
     var body: some View {
         
-        ScrollView(.horizontal, showsIndicators: false ) {
+        ScrollView(.horizontal, showsIndicators: false) {
 
             HStack(alignment: .center, spacing: 20) {
 

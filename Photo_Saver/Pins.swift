@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Pins: Identifiable {
+struct Pins: Identifiable, Hashable {
     
     /// -----------------
     ///  Property of Pins:
